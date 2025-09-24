@@ -5,7 +5,7 @@ html {
 
 *, *::before , *::after {
     box-sizing: inherit;
-    /* border: .5px solid pink; Temporary for layout */
+    border: .5px solid pink; Temporary for layout
     margin: 0;
     padding: 0;
 }
@@ -94,4 +94,48 @@ html {
 
 .header-img {
     background-color: gray;
+}
+
+
+/* BEGINNING OF MIDDLE BOX CSS */
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.middle-header {
+    align-content: center;
+    height: 50px;
+}
+
+.image-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 140px;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.box-desc {
+    text-align: center;
 }
