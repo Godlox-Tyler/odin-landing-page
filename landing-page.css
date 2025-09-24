@@ -67,7 +67,7 @@ html {
     height: 50px;
     display: flex;
     align-items: center;
-    max-width: calc(var(--header-info-width) + var(--header-info-width));
+    max-width: calc(var(--header-info-width) * 2);
     flex-grow: 1;
 }
 
