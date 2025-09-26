@@ -201,3 +201,41 @@ p {
     font-weight: 600;
 }
 
+/* Call to action css bellow */
+
+.call-action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.blue-box {
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    max-width: calc(var(--header-info-width) * 2);
+    flex-grow: 1;
+    height: 150px; 
+    align-items: center;
+    border-radius: 10px;
+}
+
+.inspiration :nth-child(1) {
+    font-weight:600;
+    font-size: 20px;
+}
+
+.inspiration :nth-child(2) {
+    color: white;
+}
+
+.sign-up button {
+    color: white;
+    font-size: 20px;
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
