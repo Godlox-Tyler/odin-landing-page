@@ -239,3 +239,14 @@ p {
     border-radius: 8px;
     border: 2px solid white;
 }
+
+/* Footer css starts here */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
