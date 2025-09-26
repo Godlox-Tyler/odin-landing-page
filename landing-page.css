@@ -10,8 +10,14 @@ html {
     padding: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --header-info-width: 450px;
+    --img-quote-width: 700px;
 }
 
 .top-container {
@@ -115,7 +121,8 @@ html {
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding: 0 15px;
+    padding: 0 15px 100px;
+    max-width: var(--img-quote-width);
 }
 
 .image-text {
@@ -139,3 +146,58 @@ html {
 .box-desc {
     text-align: center;
 }
+
+/* Quote container css starts here. */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.quote-credit {
+    display: flex;
+    flex-direction:column;
+
+}
+
+.quote {
+    max-width: var(--img-quote-width);
+    padding: 0 15px;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote strong {
+    font-weight: 700;
+}
+
+.credit {
+    margin-left: auto;
+    padding: 0;
+    width:fit-content;
+    align-self: right;
+}
+
+.person{
+    font-size:30px;
+    color: #D90A10;
+    font-weight: 550;
+}
+
+.small {
+    margin-left: auto;
+    max-width:fit-content;
+    background-image: linear-gradient(to right, #fb8637, #cf6a32);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+
