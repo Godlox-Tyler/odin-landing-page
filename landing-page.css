@@ -5,7 +5,7 @@ html {
 
 *, *::before , *::after {
     box-sizing: inherit;
-    border: .5px solid pink; Temporary for layout
+    /* border: .5px solid pink; Temporary for layout */
     margin: 0;
     padding: 0;
 }
